@@ -61,7 +61,7 @@ while iniciar_trivia == True:
     puntaje += 1000
     print("Esta respuesta es secreta obtuviste un super puntaje")
   else:
-    puntaje * 2
+    puntaje +=10  * 2
     print(BLUE + "Correcto" , MAGENTA + "Walter Alva"+ RESET, "es el descubridor del Señor de Sipán")
   
   print("\n Gracias" + BLUE, nombre, RESET + "por jugar mi trivia, alcanzaste" + BLUE, puntaje, RESET +"puntos\n")
@@ -94,7 +94,7 @@ while iniciar_trivia == True:
     puntaje += 1000
     print("Esta respuesta es secreta obtuviste un super puntaje")
   else:
-    puntaje * 2
+    puntaje +=10  * 2
     print(BLUE + "Correcto" + RESET, "La fecha de fundacion es ", MAGENTA +"20 de agosto 1992" + RESET)
   
   print("\n Gracias"+ BLUE, nombre, RESET + "por jugar mi trivia, alcanzaste" + BLUE, puntaje, RESET + "puntos\n")
@@ -127,7 +127,7 @@ while iniciar_trivia == True:
     puntaje += 1000
     print("Esta respuesta es secreta obtuviste un super puntaje")
   else:
-    puntaje * 2
+    puntaje +=10  * 2
     print(BLUE + "Correcto", RESET + "La tumba del Señor de Sican fue descubierto en ", MAGENTA + "Huaca del Oro" + RESET)
   
   time.sleep(2)
